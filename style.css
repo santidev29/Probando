@@ -6,7 +6,6 @@
   }
   
   body{
-    background-color: azure;
     width: 100%;
   }
   
@@ -77,9 +76,8 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
-    animation: puls-effect 1s ease infinite;
   }
   .tooltip.active .tooltip-content{
     opacity: 1;
@@ -90,13 +88,45 @@
   /* Custom Style for tooltip-1 */
   
   .tooltip-1 .pin{
-    top: 40%;
-    left: 82%;
+    top: 21%;
+    left: 43%;
     height: 15px;
     width: 15px;
     background-color: rgb(255, 255, 255);
   }
   .tooltip-1 .tooltip-content{
+    display: flex;
+    max-width: 100px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  /* Custom Style for tooltip-2 */
+  
+  .tooltip-2 .pin{
+    top: 34%;
+    left: 18%;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+  }
+  .tooltip-2 .tooltip-content{
+    display: flex;
+    max-width: 100px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+  }
+
+  /* Custom Style for tooltip-3 */
+  
+  .tooltip-3 .pin{
+    top: 37%;
+    left: 80%;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+  }
+  .tooltip-3 .tooltip-content{
     display: flex;
     max-width: 100px;
     justify-content: center;
